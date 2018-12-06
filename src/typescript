@@ -34,4 +34,45 @@ found 2 [1mlow[0m severity vulnerabilities
 ]2;cd ../]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [K[?1h=[?2004hccoc  ggit  g  llsl  ccode .[?1l>[?2004l
 ]2;code .]1;code[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [K[?1h=[?2004hggit ca  add    int it[?1l>[?2004l
 ]2;git init]1;gitInitialized empty Git repository in /Users/jdwheeler/workspace/exercises/classBuildResourceTracker/.git/
-[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .     g  
+[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .     g  ggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit - m "catc    group projet  ct work. "[?1l>[?2004l
+]2;git commit -m "group project work"]1;git[master (root-commit) 69646af] group project work
+ 21 files changed, 2821 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .vscode/settings.json
+ create mode 100644 README.md
+ create mode 100644 api/database.json
+ create mode 100644 src/.eslintrc
+ create mode 100644 src/index.html
+ create mode 100644 src/lib/Gruntfile.js
+ create mode 100644 src/lib/grunt/aliases.yaml
+ create mode 100644 src/lib/grunt/bgShell.js
+ create mode 100644 src/lib/grunt/eslint.js
+ create mode 100644 src/lib/grunt/http-server.js
+ create mode 100644 src/lib/grunt/watch.js
+ create mode 100644 src/lib/package-lock.json
+ create mode 100644 src/lib/package.json
+ create mode 100644 src/scripts/data.js
+ create mode 100644 src/scripts/domBuilder.js
+ create mode 100644 src/scripts/domComponents.js
+ create mode 100644 src/scripts/eventListeners.js
+ create mode 100644 src/scripts/main.js
+ create mode 100644 src/styles/main.css
+ create mode 100644 src/typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hggit  g  [7mgit remote add origin git@github.com:l[7mo[7metek/Class-Build-Resource-Tracker.git[27m[K[A[4C[27mg[27mi[27mt[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ma[27md[27md[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mg[27mi[27mt[27m@[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m:[27mlo[27me[27mt[27me[27mk[27m/[27mC[27ml[27ma[27ms[27ms[27m-[27mB[27mu[27mi[27ml[27md[27m-[27mR[27me[27ms[27mo[27mu[27mr[27mc[27me[27m-[27mT[27mr[27ma[27mc[27mk[27me[27mr[27m.[27mg[27mi[27mt[?1l>[?2004l
+]2;git remote add origin git@github.com:loetek/Class-Build-Resource-Tracker.git]1;git[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .    push orii gin master[?1l>[?2004l
+]2;git push origin master]1;gitCounting objects: 29, done.
+Delta compression using up to 8 threads.
+Compressing objects:   4% (1/23)   Compressing objects:   8% (2/23)   Compressing objects:  13% (3/23)   Compressing objects:  17% (4/23)   Compressing objects:  21% (5/23)   Compressing objects:  26% (6/23)   Compressing objects:  30% (7/23)   Compressing objects:  34% (8/23)   Compressing objects:  39% (9/23)   Compressing objects:  43% (10/23)   Compressing objects:  47% (11/23)   Compressing objects:  52% (12/23)   Compressing objects:  56% (13/23)   Compressing objects:  60% (14/23)   Compressing objects:  65% (15/23)   Compressing objects:  69% (16/23)   Compressing objects:  73% (17/23)   Compressing objects:  78% (18/23)   Compressing objects:  82% (19/23)   Compressing objects:  86% (20/23)   Compressing objects:  91% (21/23)   Compressing objects:  95% (22/23)   Compressing objects: 100% (23/23)   Compressing objects: 100% (23/23), done.
+Writing objects:   3% (1/29)   Writing objects:   6% (2/29)   Writing objects:  10% (3/29)   Writing objects:  13% (4/29)   Writing objects:  17% (5/29)   Writing objects:  20% (6/29)   Writing objects:  24% (7/29)   Writing objects:  27% (8/29)   Writing objects:  31% (9/29)   Writing objects:  34% (10/29)   Writing objects:  37% (11/29)   Writing objects:  41% (12/29)   Writing objects:  44% (13/29)   Writing objects:  48% (14/29)   Writing objects:  51% (15/29)   Writing objects:  55% (16/29)   Writing objects:  58% (17/29)   Writing objects:  62% (18/29)   Writing objects:  65% (19/29)   Writing objects:  68% (20/29)   Writing objects:  72% (21/29)   Writing objects:  75% (22/29)   Writing objects:  79% (23/29)   Writing objects:  82% (24/29)   Writing objects:  86% (25/29)   Writing objects:  89% (26/29)   Writing objects:  93% (27/29)   Writing objects:  96% (28/29)   Writing objects: 100% (29/29)   Writing objects: 100% (29/29), 28.68 KiB | 5.74 MiB/s, done.
+Total 29 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/loetek/Class-Build-Resource-Tracker/pull/new/master[K
+remote: 
+To github.com:loetek/Class-Build-Resource-Tracker.git
+ * [new branch]      master -> master
+[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit chek ckout -b i iBranch[?1l>[?2004l
+]2;git checkout -b iBranch]1;gitM	src/typescript
+Switched to a new branch 'iBranch'
+[1m[7m%[27m[1m[0m                                                                                ]2;jdwheeler@Justins-MacBook-Pro]1;..sourceTracker]7;file://Justins-MacBook-Pro.local/Users/jdwheeler/workspace/exercises/classBuildResourceTracker[0m[27m[24m[J[01;32m➜  [36mclassBuildResourceTracker[00m [01;34mgit:([31miBranch[34m) [33m✗[00m [K[?1h=[?2004h
