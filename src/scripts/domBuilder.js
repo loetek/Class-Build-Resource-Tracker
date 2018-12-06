@@ -1,4 +1,9 @@
 // This module is responsible for taking data, building out DOM components and returning those components.
+// This will append input. It will also appendResources. appendAllResources.  This Creates the HTML data. 
+//
+
+
+// This module is responsible for taking data, building out DOM components and returning those components.
 
 const domBuilder = {
     name: "Dom Builder Component",
@@ -43,8 +48,23 @@ const domBuilder = {
       videosContainer.innerHTML = "";
       articlesContainer.appendChild(fragmentsObj.articles);
       videosContainer.appendChild(fragmentsObj.videos);
+    },
+    appendSearchContainer () {
+      let divContainer = document.querySelector("#display-container");
+  
+      const searchContainer = domComponents.createDomElement("article", null, "search-container");
+  
+      searchContainer.appendChild(domComponents.createDomElement("label", "Search", null));
+      let searchInput = document.createElement("input");
+      searchInput.setAttribute("type", "text");
+      searchInput.setAttribute("name", "searchinput");
+      searchContainer.appendChild(searchInput);
+  
+      let searchButton = domComponents.createDomElement("button", "Search", null);
+      searchButton.setAttribute("id", "search-button");
+      // searchButton.addEventListener("click", eventListeners.handleSearchButton);
+      searchContainer.appendChild(searchButton);
+  
+      divContainer.appendChild(searchContainer);
     }
   };
-  
-  domBuilder.appendInputForm();
-  domBuilder.appendResourceContainers();

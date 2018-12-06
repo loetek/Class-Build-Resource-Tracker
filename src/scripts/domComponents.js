@@ -1,4 +1,4 @@
-// This module is responsible for appending DOM components to the DOM.
+// This module is responsible for appending DOM components to the DOM. 
 
 const domComponents = {
     createDomElement (elementType, content, cssClass) {
