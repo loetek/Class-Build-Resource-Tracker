@@ -1,0 +1,46 @@
+{
+    "resources": [
+      {
+        "name": "resource1name",
+        "link": "resource1link",
+        "type": "Video",
+        "id": 1
+      },
+      {
+        "name": "resource2name",
+        "link": "resource2link",
+        "type": "Video",
+        "id": 2
+      },
+      {
+        "name": "resource3name",
+        "link": "resource3link",
+        "type": "Video",
+        "id": 3
+      },
+      {
+        "name": "resource4name",
+        "link": "resource4link",
+        "type": "Article",
+        "id": 4
+      },
+      {
+        "name": "resource5name",
+        "link": "resource5link",
+        "type": "Article",
+        "id": 5
+      },
+      {
+        "name": "resource6name",
+        "link": "resource6link",
+        "type": "Article",
+        "id": 6
+      },
+      {
+        "name": "newresource",
+        "link": "newlink",
+        "type": "Video",
+        "id": 7
+      }
+    ]
+  }
